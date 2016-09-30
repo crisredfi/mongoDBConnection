@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F075A0821D9F0567000F5870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075A0811D9F0567000F5870 /* AppDelegate.swift */; };
+		F075A0841D9F0567000F5870 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075A0831D9F0567000F5870 /* MasterViewController.swift */; };
+		F075A0861D9F0567000F5870 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075A0851D9F0567000F5870 /* DetailViewController.swift */; };
+		F075A0891D9F0567000F5870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F075A0871D9F0567000F5870 /* Main.storyboard */; };
+		F075A08B1D9F0567000F5870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F075A08A1D9F0567000F5870 /* Assets.xcassets */; };
+		F075A08E1D9F0567000F5870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F075A08C1D9F0567000F5870 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F075A07E1D9F0567000F5870 /* mongoDBConnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mongoDBConnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F075A0811D9F0567000F5870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F075A0831D9F0567000F5870 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		F075A0851D9F0567000F5870 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F075A0881D9F0567000F5870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F075A08A1D9F0567000F5870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F075A08D1D9F0567000F5870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F075A08F1D9F0567000F5870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F075A07B1D9F0567000F5870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F075A0751D9F0567000F5870 = {
+			isa = PBXGroup;
+			children = (
+				F075A0801D9F0567000F5870 /* mongoDBConnector */,
+				F075A07F1D9F0567000F5870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F075A07F1D9F0567000F5870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F075A07E1D9F0567000F5870 /* mongoDBConnector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F075A0801D9F0567000F5870 /* mongoDBConnector */ = {
+			isa = PBXGroup;
+			children = (
+				F075A0811D9F0567000F5870 /* AppDelegate.swift */,
+				F075A0831D9F0567000F5870 /* MasterViewController.swift */,
+				F075A0851D9F0567000F5870 /* DetailViewController.swift */,
+				F075A0871D9F0567000F5870 /* Main.storyboard */,
+				F075A08A1D9F0567000F5870 /* Assets.xcassets */,
+				F075A08C1D9F0567000F5870 /* LaunchScreen.storyboard */,
+				F075A08F1D9F0567000F5870 /* Info.plist */,
+			);
+			path = mongoDBConnector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F075A07D1D9F0567000F5870 /* mongoDBConnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F075A0921D9F0567000F5870 /* Build configuration list for PBXNativeTarget "mongoDBConnector" */;
+			buildPhases = (
+				F075A07A1D9F0567000F5870 /* Sources */,
+				F075A07B1D9F0567000F5870 /* Frameworks */,
+				F075A07C1D9F0567000F5870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mongoDBConnector;
+			productName = mongoDBConnector;
+			productReference = F075A07E1D9F0567000F5870 /* mongoDBConnector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F075A0761D9F0567000F5870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Aleix Guri";
+				TargetAttributes = {
+					F075A07D1D9F0567000F5870 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F075A0791D9F0567000F5870 /* Build configuration list for PBXProject "mongoDBConnector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F075A0751D9F0567000F5870;
+			productRefGroup = F075A07F1D9F0567000F5870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F075A07D1D9F0567000F5870 /* mongoDBConnector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F075A07C1D9F0567000F5870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F075A08E1D9F0567000F5870 /* LaunchScreen.storyboard in Resources */,
+				F075A08B1D9F0567000F5870 /* Assets.xcassets in Resources */,
+				F075A0891D9F0567000F5870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F075A07A1D9F0567000F5870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F075A0861D9F0567000F5870 /* DetailViewController.swift in Sources */,
+				F075A0841D9F0567000F5870 /* MasterViewController.swift in Sources */,
+				F075A0821D9F0567000F5870 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F075A0871D9F0567000F5870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F075A0881D9F0567000F5870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F075A08C1D9F0567000F5870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F075A08D1D9F0567000F5870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F075A0901D9F0567000F5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F075A0911D9F0567000F5870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F075A0931D9F0567000F5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mongoDBConnector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisredfi.mongoDBConnector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F075A0941D9F0567000F5870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mongoDBConnector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisredfi.mongoDBConnector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F075A0791D9F0567000F5870 /* Build configuration list for PBXProject "mongoDBConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F075A0901D9F0567000F5870 /* Debug */,
+				F075A0911D9F0567000F5870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F075A0921D9F0567000F5870 /* Build configuration list for PBXNativeTarget "mongoDBConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F075A0931D9F0567000F5870 /* Debug */,
+				F075A0941D9F0567000F5870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F075A0761D9F0567000F5870 /* Project object */;
+}
